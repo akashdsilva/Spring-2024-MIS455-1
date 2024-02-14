@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(134, 176, 196);
+    margin: 150px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: bold;
+  }
+  .login-container{
+    display: flex;
+    margin: auto;
+    align-content: center;
+  
+  
+  
+  }
+  .para2{
+    background-color: rgb(175, 205, 231);
+    justify-content: auto;
+    padding: 30px;
+    border: 2px solid skyblue;
+    border-radius: 20px;
+    bottom: auto;
+    right: auto;
+    height: auto;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: expanded;
+    font-style: bold;
+  
+  
+  }
+  .para1{
+    display: fixed;
+    margin: 50px;
+    margin-top: 150px;
+    margin-left: 10px;
+    font-size: 50px;
+  }
+  button {
+    background-color: rgb(134, 176, 196);
+    border-radius: 30px;
+    color: white;
+    padding: 20px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: larger;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 30px;
+  }
+  h2{
+    text-align: center;
+    font-size: 50px;
+  }
+  .remember{
+    text-align: left;
+  
+  }
+  .forgot :hover{
+    font-size: medium;
+    border: 2px solid rgb(143, 189, 233);
+    border-radius: 20px;
+  }
+  .forgot{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  @media screen and (max-width: 600px) {
+    .login-container {
+        padding: 30px;
+    }
+  }
+  .login-options {
+    text-align: center;
+}
+
+.login-options p {
+    margin-bottom: 10px;
+}
+
+.login-options button{
+    margin: 0 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.google-login {
+  background-image: url(https://freelogopng.com/images/all_img/1657955079google-icon-png.png);
+  background-size: contain;
+}
+.facebook-login {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png);
+  background-size: cover;
+}
+button:hover {
+  background-color: #5a89cc;
+  border: 2px solid rgb(102, 154, 184); /* You can replace "black" with your desired border color */
+}
