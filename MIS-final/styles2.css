@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Ubuntu,Lora, sans-serif;
+    background-image: url(https://img.freepik.com/premium-vector/beige-studio-background-neutral-background-with-soft-rays-warm-soft-light-studio-lighting-photostudio-soft-box-neutral-lighting_257477-118.jpg?w=740);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: transparent;
+    color: #000000;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #0e0b0b;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #09247c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.products {
+    width: auto;
+    margin: 40px;
+    padding: 40px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+
+
+footer {
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    background-color: transparent;
+}
+.container .products{
+    margin: 200px;
+}
