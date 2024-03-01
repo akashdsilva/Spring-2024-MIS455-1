@@ -61,6 +61,36 @@ h1{
 
 }
 
+.product {
+    display: inline-block;
+    width: 300px;
+    margin: 50px;
+    padding: 50px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px;
+    width: auto;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product .btn:hover {
+    background-color: #473a3a;
+}
 
 footer {
     background-color: #333;
