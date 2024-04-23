@@ -1,170 +1,82 @@
 :root {
-    --primary-color: #010712;
-    --secondary-color: #818386;
-    --bg-color: #FCFDFD;
-    --button-color: #3B3636;
-    --h1-color: #3F444C;
-  }
-body{
-  color:rgb(241, 232, 212);
+  --primary-color: #010712;
+  --secondary-color: #ffffff;
+  --bg-color: #FCFDFD;
+  --button-color: #3B3636;
+  --h1-color: #ffffff;
 }
-  
-  * {
-    margin: 0;
-    box-sizing: border-box;
-    transition: all 0.3s ease-in-out;
-    font-family: 'Trirong'
 
-  }
-  
-  .contact-container {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    background: var(--bg-color);
-  }
-  
-  .left-col {
-    width: 45vw;
-    height: 100%;
-    background-image: url(img/contactpic.jpg) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .contact-container{
-    background-color: rgb(255, 255, 255)
-
-  }
-  .logo {
-    width: 10rem;
-    padding: 1.5rem;
-  }
-  
-  .right-col {
-
-    width: 50px;
-    height: 100vh;
-    padding: 5rem 3.5rem;
-    background-color: rgb(255, 255, 255)
-  }
-  
-  h1, label, button, .description {
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.1rem;
-  }
-  
-  h1 {
-    color:var(--h1-color);
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    letter-spacing: 0.5rem;
-    font-weight: 300;
-  }
-  
-  p {
-    color: var(--secondary-color);
-    font-size: 0.9rem;
-    letter-spacing: 0.01rem;
-    width: 40vw;
-    margin: 0.25rem 0;
-  }
-  
-  label, .description {
-    color: var(--secondary-color);
-    text-transform: uppercase;
-    font-size: 10px;
-
-  }
-  
-  form {
-    width: 31.25rem;
-    position: relative;
-    margin-top: 2rem;
-    padding: 20px;
-    border-radius: 20px;
-
-  }
-  
-  input, textarea, label {
-    width: 40vw;
-    display: block;
-  }
-  
-  p, placeholder, input, textarea {
-    font-family: 'Helvetica Neue', sans-serif;
-  }
-  
-  input::placeholder, textarea::placeholder {
-    color: var(--primary-color);
-  }
-  
-  input, textarea {
-        width: 100%;
-        border: 1px solid #ccc;
-        border-radius: 10px;
-        box-sizing: border-box;
-        font-size: 16px;
-        transition: border-color 0.3s ease;
-        margin: 10px;
-        padding: 15px;
-    }
-  
-  
-  textarea {
-    margin: 10px;
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-sizing: border-box;
-    font-size: 16px;
-    transition: border-color 0.3s ease;
+body {
+  color: rgb(241, 232, 212);
+  font-family: 'Trirong', sans-serif;
+  background-image: url('img/contactpic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-  
-  button {
-    text-transform: uppercase;
-    font-weight: 300;
-    background: var(--button-color);
-    color: var(--bg-color);
-    width: 10rem;
-    height: 2.25rem;
-    border: none;
-    border-radius: 2px;
-    outline: none;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-  input:hover, textarea:hover, button:hover {
-    opacity: 0.5;
-  }
-  
-  button:active {
-    opacity: 0.8;
-  }
-  
-  
-  .description {
-      margin-left: 1.25rem;
-    }
-  
+.sticky-top{
+  top: 0;
 
-  #error, #success-msg {
-    width: 40vw;
-    margin: 0.125rem 0;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    font-family: 'Jost';
-    color: var(--secondary-color);
-    }
-  
-  
-    #success-msg {
-    transition-delay: 3s;
-    }
-    .container-2 {
-      display: flex;
-      justify-content: center;
-      border-radius: 10px;
-  }
+}
+.c-img{
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+.empty-div{
+  padding: 50px;
+}
+.pkgHeader{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.freq{
+  text-align: center;
+  padding: 90px;
+}
+.contact-container {
+  padding: 50px 0;
+
+}
+
+.logo {
+  width: 10rem;
+  padding: 1.5rem;
+}
+
+h1 {
+  color: var(--h1-color);
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+p {
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  max-width: 500px;
+}
+
+button {
+  text-transform: uppercase;
+  background: var(--button-color);
+  color: var(--bg-color);
+  width: 100%;
+  height: 2.25rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.container-2 {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  bottom: 0;
+}
