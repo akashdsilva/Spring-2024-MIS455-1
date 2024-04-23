@@ -13,7 +13,7 @@ function fetchCountries(countryName) {
 function displayCountries(countries) {
     var container = document.getElementById('countries-container');
     container.innerHTML = '';
-
+          
     countries.forEach(country => {
         var countryEl = document.createElement('div');
         countryEl.className = 'country-card';
@@ -25,10 +25,10 @@ function displayCountries(countries) {
             <button onclick='fetchWeatherDetails(${country.latlng[0]}, ${country.latlng[1]}, "${country.name.common}"); this.disabled = true;'>More Details</button>`;
         container.appendChild(countryEl);
     });
-}
+}                                                                                
 
 function fetchWeatherDetails(lat, lon, countryName) {
-    var url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=f92afcbeb5cb22994bd5a42fba9ca18e&units=metric`;
+    var url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=f92afcbeb5cb22994bd5a42fba9ca18e&units=metric`;                 
     fetch(url)
     .then(res => res.json())
     .then(data => displayWeatherDetails(data, countryName))

@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Trirong','Arial', sans-serif;
+    background-color: rgb(241, 232, 212);
+}
+.sticky-top{
+    top: 0;
+
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.empty-div{
+    padding: 50px;
+}
+.pkgHeader{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.freq{
+    text-align: center;
+    padding: 90px;
+}
+
+.carousel-item img {
+    height: 800px;
+    object-fit: cover; 
+    object-position: center; 
+}
+.container.text-muted.span{
+    text-align: center;
+}
+.container-2 {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.card-img-top {
+    height: 400px;
+    object-fit: cover; 
+}
+
+.card-body {
+    text-align: center;
+    background-color:  #ecc38d;
+    border-radius: 0px 0 30px 30px;
+ 
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-price {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+.card {
+    margin-bottom: 10px;
+    border-radius: 30px
+
+}
