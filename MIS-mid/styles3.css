@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Ubuntu,Lora, sans-serif;
+    background-image: url(https://img.freepik.com/premium-vector/beige-studio-background-neutral-background-with-soft-rays-warm-soft-light-studio-lighting-photostudio-soft-box-neutral-lighting_257477-118.jpg?w=740);
+    background-size: cover;
+    background-repeat: initial;
+    font-family: "Ubuntu", sans-serif;
+}
+.lol{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container h1{
+    text-align: left;
+}
+header {
+    background-color: transparent;
+    color: #000000;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #0e0b0b;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 30px;
+    color: #000000;
+    
+}
+
+
+.container{
+    margin-left: 20%;
+    margin-right: 10%;
+    height: 100%;
+    width: 70%;
+}
+.inner {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(196, 224, 248);
+    height: 400px;
+    width: 400px;
+}
+
+
+.box2{
+    background-color: transparent;
+    color: #000000;
+    font-family: "Lora", sans-serif;
+    font-weight: 200px;
+    font-size: 18px;
+
+}
+.box4{
+    background-color: transparent;
+
+}
+
+.box3{
+    background-color: transparent;
+    color: #140d0d;
+    font-family: "Lora", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: left;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+}
+
+img{
+    margin: 0;
+    height: 450px;
+    width: 450px;
+    border-radius: 30px;
+}
+.title h1{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: "Audiowide", sans-serif;
+}
+footer {
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    background-color: transparent;
+    text-align: center;
+}
